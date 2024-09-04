@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "error-typestate-experiment"
+version = "0.1.0"
+description = ""
+authors = ["Duy Nguyen <57234880+duynguyen158@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.5"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
